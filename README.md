@@ -19,7 +19,7 @@ Vous trouverez tous les fichiers nécessaires directement dans le dépôt.
 Pour lancer l'éditeur, importez la bibliothèque et le module.
 
 taper:
-nano(_nom du fichier_)
+cmd_nano(_nom du fichier_)
 
 Si le nom de fichier n'existe pas, Nano le crée directement.
 
@@ -56,7 +56,7 @@ To launch the editor, import the library and the module.
 
 Type:
 ```
-nano(_file name_)
+cmd_nano(_file name_)
 ```
 
 If the file name does not exist, Nano creates it directly.
