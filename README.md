@@ -31,6 +31,10 @@ Vos commentaires et suggestions sont les bienvenus.
 
 Bien que je sois francophone, les zones de texte sont en anglais, mais les commentaires sont en français.
 
+
+
+
+
 English:
 Emulator of the Nano Linux text editor for the Lilygo T-Deck, enabling direct file modification on the T-Deck.
 
