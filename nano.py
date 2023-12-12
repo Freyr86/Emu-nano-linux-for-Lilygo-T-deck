@@ -499,7 +499,10 @@ def modif_text(press_key):
     global nbr_ligne_total
     
     #chargement de la ligne text
-    txt_ligne = list_affichage[index_ligne + index_page]
+    try:
+        txt_ligne = list_affichage[index_ligne + index_page]
+    except:
+        None
 
     txt_modif_ligne = ""
     size = len(txt_ligne)
@@ -667,6 +670,10 @@ def modif_text(press_key):
 
             #changement de l'index curseur
             index_lettre = 0
+
+            #maj du nombre de linge
+            nbr_ligne_total = len(list_affichage)
+
         else:
             txt_modif_ligne = list_affichage[index_ligne + index_page]
             list_affichage[index_ligne + index_page] = txt_modif_ligne[0:(index_lettre + index_colone)] + carac + txt_modif_ligne[(index_lettre + index_colone):len(txt_modif_ligne)]
