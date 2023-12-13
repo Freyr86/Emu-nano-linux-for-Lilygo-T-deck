@@ -193,6 +193,8 @@ def len_file(chemin):
     #si fichier plus petit que 16 passage a 16
     if tot_ligne < 16:
         tot_ligne = 16
+    else:
+        tot_ligne = tot_ligne + 1
 
     #mise a jour ligne total
     nbr_ligne_total = tot_ligne
